@@ -25,5 +25,5 @@ class Logger
         }
     }
 
-    
+    public void SomeAction() { }
 }
