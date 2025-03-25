@@ -15,6 +15,15 @@ class Program
     Logger logger2 = Logger.Instance;
     logger2.Log("Второе сообщение");
 
-    Console.WriteLine(ReferenceEquals(logger1, logger2)); 
-}
+    Console.WriteLine(ReferenceEquals(logger1, logger2));
+
+        VehicleFactory factory;
+
+        // Допустим, пользователь выбрал "мотоцикл"
+        factory = new MotorcycleFactory();
+
+        Vehicle vehicle = factory.CreateVehicle();
+        vehicle.Drive();
+    }
+
 }

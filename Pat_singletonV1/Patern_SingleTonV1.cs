@@ -25,5 +25,9 @@ class Logger
         }
     }
 
-    public void SomeAction() { }
+    // Метод для вывода сообщения в консоль
+    public void Log(string message)
+    {
+        Console.WriteLine($"[LOG] {message}");
+    }
 }
