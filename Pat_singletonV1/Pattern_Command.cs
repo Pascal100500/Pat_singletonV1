@@ -9,7 +9,7 @@ class Chef
 {
     public void MakePizza(string type)
     {
-        Console.WriteLine($"🍕 Повар готовит пиццу: {type}");
+        Console.WriteLine($" Повар готовит пиццу: {type}");
     }
 }
 
